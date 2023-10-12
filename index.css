@@ -99,8 +99,7 @@
     height: 337px;
     width: 376.14px;
     border-radius: 5%;
-}
-  
+} 
 .alinhar-icones{
     display: flex;
     flex-direction: column;
@@ -125,7 +124,6 @@
     flex-direction: row;
     margin-top: 27px;
 }
-
 .botaorolar{
     border-radius: 71px;
     border-style: solid;
@@ -144,7 +142,6 @@
     border: none;
 
 }
-
 .listaimagens{
     display: flex;
     flex-direction: column;
