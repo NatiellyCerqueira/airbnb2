@@ -1,7 +1,6 @@
 .search-container{
-    width: 327px;
+    width: 80%;
     display: block;
-    margin-left: 20px;
   }
   
   input#search-bar{
@@ -54,13 +53,14 @@
     
 }
 .borda{
-    width:35px;
-    height:35px;
-    border-radius:50%;
+    border-radius:100%;
     border: 1px solid; 
     border-color: grey;
-    margin-top: 12px;
-    margin-right: 48px;
+    margin-top: 11px;
+    margin-right: 22px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
 }
 .barrapesquisar{
     display: flex;
@@ -71,7 +71,7 @@
 }
 
 .icones{
-    width:26px;
+    width:22px;
     display: flex;
     flex-direction: column;
     color: grey;
@@ -105,43 +105,7 @@
     flex-direction: column;
     align-items: center;
 }
-.exibir{
-        border-radius: 12px;
-        border-color: rgba(128, 128, 128, 0.621);
-        border-width: 1px;
-        border-style: solid;
-        padding-left: 16px;
-        padding-right: 16px;
-        width: 341px;
-        height: 67px;
-        margin-top: 20px;
-        margin-left: 75px;
-        margin-bottom: 27px;
-}
-.exibir2{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin-top: 27px;
-}
-.botaorolar{
-    border-radius: 71px;
-    border-style: solid;
-    border-width: 1px;
-    width: 27px;
-    height: 27px;
-    background: white;
-    border: white;
-    margin-left: -5px;
-}
-.backbotao{
-    height: 30px;
-    width: 54px;
-    background: #b9b1b1de;
-    border-radius: 24px;
-    border: none;
 
-}
 .listaimagens{
     display: flex;
     flex-direction: column;
@@ -157,11 +121,32 @@
 }
 .spancolor{
     filter: opacity(0.6);
+    font-size: 12px;
+    padding-top: 8px;
 }
 .font-pesquisa{
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 
-  
+.display-flex{
+    display: flex;
+}
 
-
+.w-90{
+    width:90%;
+}
+.w-10{
+    width:10%;
+}
+.linha-1{
+    width: 100%;
+    display: flex;
+    height: 70px;
+    flex-wrap: nowrap;
+}
+.w-100{
+    width:100%;
+}
+.justify-space{
+    justify-content: space-around;
+}
